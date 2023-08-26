@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "npm install && tsc && GH_PAGES=true vite build",
+    "build": "npm install && tsc && GH_PAGES=true vite build --output dist",
     "build:dev": "tsc && vite build",
     "preview": "vite preview"
   },
