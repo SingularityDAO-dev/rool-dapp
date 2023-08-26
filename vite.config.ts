@@ -8,12 +8,5 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist'
-  },
-  // @ts-ignore
-  base: process.env.GH_PAGES ? '/demo-dapp-with-react-ui/' : './',
-  server: {
-    fs: {
-      allow: ['../sdk', './'],
-    },
-  },
+  }
 })
